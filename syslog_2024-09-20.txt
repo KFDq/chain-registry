@@ -1,0 +1,11 @@
+Sep 20 17:13:05 NYM yarn[1135929]: getaddrinfo ENOTFOUND testnet-milhon-validator1.nymtech.net
+Sep 20 17:13:08 NYM yarn[1135929]: getaddrinfo ENOTFOUND testnet-milhon-validator1.nymtech.net
+Sep 20 17:13:08 NYM lavap[4039954]: Sep 20 17:13:08 DBG saving rewards snapshot to the DB proofs=14
+Sep 20 17:13:08 NYM lavap[4039954]: Sep 20 17:13:08 INF Saved rewards snapshot to the DB successfully proofs=14
+Sep 20 17:13:09 NYM lavap[4039961]: Sep 20 17:13:09 DBG saving rewards snapshot to the DB proofs=14
+Sep 20 17:13:09 NYM lavap[4039961]: Sep 20 17:13:09 INF Saved rewards snapshot to the DB successfully proofs=14
+Sep 20 17:13:10 NYM lavavisor[4039722]: Sep 20 17:13:10 DBG [Lavavisor] lavap link path found, validating linked binary is the right one lavap_path=/usr/local/bin/lavap
+Sep 20 17:13:10 NYM lavavisor[4039722]: Sep 20 17:13:10 INF [Lavavisor] Validated protocol version current_binary=3.1.0 lava_block_number=1372705 version_min=2.2.2 version_target=3.1.0
+Sep 20 17:13:10 NYM lavap[4039954]: Sep 20 17:13:10 DBG relevant payment events number_of_payment_events_detected=4 number_of_relevant_payments_detected=0
+Sep 20 17:13:12 NYM yarn[1135929]: getaddrinfo ENOTFOUND testnet-milhon-validator1.nymtech.net
+
