@@ -20,3 +20,14 @@ Sep 20 17:16:01 NYM CRON[1260997]: (root) CMD (/bin/bash /root/.healthchecks/aut
 Sep 20 17:16:01 NYM CRON[1260998]: (root) CMD (/bin/bash /root/.lava/lava_mon.sh)
 Sep 20 17:16:01 NYM CRON[1260999]: (root) CMD (/bin/bash /root/.lava/cosmoshub_mon.sh)
 
+Sep 20 17:21:38 NYM lavap[4039961]: Sep 20 17:21:38 DBG Provider Finished Relay Successfully GUID=9255769865065417752 method=/cosmos/staking/v1beta1/delegators/{delegator_addr}/unbonding_delegations replyBlock=1372738 request.SessionId=3298283951205714841 request.relayNumber=13 requestedBlock=1372738
+Sep 20 17:21:38 NYM lavap[4039961]: Sep 20 17:21:38 DBG Provider returned a relay response GUID=9255769865065417752 relay_timeout=29.621313421s request.SessionId=3298283951205714841 request.cu=130 request.relayNumber=13 timeTaken=378.459864ms
+Sep 20 17:21:38 NYM lavap[4039954]: Sep 20 17:21:38 DBG saving rewards snapshot to the DB proofs=17
+Sep 20 17:21:38 NYM lavap[4039954]: Sep 20 17:21:38 INF Saved rewards snapshot to the DB successfully proofs=17
+Sep 20 17:21:39 NYM lavap[4039961]: Sep 20 17:21:39 DBG saving rewards snapshot to the DB proofs=15
+Sep 20 17:21:39 NYM lavap[4039961]: Sep 20 17:21:39 INF Saved rewards snapshot to the DB successfully proofs=15
+Sep 20 17:21:40 NYM lavavisor[4039722]: Sep 20 17:21:40 DBG [Lavavisor] lavap link path found, validating linked binary is the right one lavap_path=/usr/local/bin/lavap
+Sep 20 17:21:40 NYM lavavisor[4039722]: Sep 20 17:21:40 INF [Lavavisor] Validated protocol version current_binary=3.1.0 lava_block_number=1372738 version_min=2.2.2 version_target=3.1.0
+Sep 20 17:21:55 NYM lavavisor[4039722]: Sep 20 17:21:55 DBG [Lavavisor] lavap link path found, validating linked binary is the right one lavap_path=/usr/local/bin/lavap
+Sep 20 17:21:55 NYM lavavisor[4039722]: Sep 20 17:21:55 INF [Lavavisor] Validated protocol version current_binary=3.1.0 lava_block_number=1372739 version_min=2.2.2 version_target=3.1.0
+
