@@ -31,3 +31,14 @@ Sep 20 17:21:40 NYM lavavisor[4039722]: Sep 20 17:21:40 INF [Lavavisor] Validate
 Sep 20 17:21:55 NYM lavavisor[4039722]: Sep 20 17:21:55 DBG [Lavavisor] lavap link path found, validating linked binary is the right one lavap_path=/usr/local/bin/lavap
 Sep 20 17:21:55 NYM lavavisor[4039722]: Sep 20 17:21:55 INF [Lavavisor] Validated protocol version current_binary=3.1.0 lava_block_number=1372739 version_min=2.2.2 version_target=3.1.0
 
+Sep 20 17:22:01 NYM CRON[1261715]: (root) CMD (/bin/bash /root/.lava/cosmoshub_mon.sh)
+Sep 20 17:22:01 NYM CRON[1261714]: (root) CMD (/bin/bash /root/.lava/lava_mon.sh)
+Sep 20 17:22:09 NYM lavap[4039954]: Sep 20 17:22:08 DBG saving rewards snapshot to the DB proofs=17
+Sep 20 17:22:09 NYM lavap[4039954]: Sep 20 17:22:09 INF Saved rewards snapshot to the DB successfully proofs=17
+Sep 20 17:22:09 NYM lavap[4039961]: Sep 20 17:22:09 DBG saving rewards snapshot to the DB proofs=15
+Sep 20 17:22:09 NYM lavap[4039961]: Sep 20 17:22:09 INF Saved rewards snapshot to the DB successfully proofs=15
+Sep 20 17:22:11 NYM lavavisor[4039722]: Sep 20 17:22:11 DBG [Lavavisor] lavap link path found, validating linked binary is the right one lavap_path=/usr/local/bin/lavap
+Sep 20 17:22:11 NYM lavavisor[4039722]: Sep 20 17:22:11 INF [Lavavisor] Validated protocol version current_binary=3.1.0 lava_block_number=1372740 version_min=2.2.2 version_target=3.1.0
+Sep 20 17:22:14 NYM lavap[4039954]: Sep 20 17:22:14 DBG ProviderTxSender got epoch update, updating vaults epoch=1372740 new vaults=map[]
+Sep 20 17:22:14 NYM lavap[4039954]: Sep 20 17:22:14 DBG Waiting for number of blocks to send the reward blocks_delay=29
+
