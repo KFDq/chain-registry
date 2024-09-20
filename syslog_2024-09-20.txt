@@ -9,3 +9,14 @@ Sep 20 17:13:10 NYM lavavisor[4039722]: Sep 20 17:13:10 INF [Lavavisor] Validate
 Sep 20 17:13:10 NYM lavap[4039954]: Sep 20 17:13:10 DBG relevant payment events number_of_payment_events_detected=4 number_of_relevant_payments_detected=0
 Sep 20 17:13:12 NYM yarn[1135929]: getaddrinfo ENOTFOUND testnet-milhon-validator1.nymtech.net
 
+Sep 20 17:15:53 NYM lavap[4039954]: Sep 20 17:15:53 DBG Chain Tracker Updated block hashes ApiInterface=tendermintrpc ChainID=Lava-node blocksKept=1 blocksQueried=0 blocksQueueLen=1 latestHash=98449F4143633C6579F89F2B8F1B1707EEBA58CBADB61909A61CDDC7AF937CF7 latest_block=1372716 nextBlocksUpdate=1372816
+Sep 20 17:15:57 NYM lavap[4039954]: Sep 20 17:15:57 DBG Provider got relay request GUID=6182522852180247723 relay addon= relay extensions= relay_timeout=29.64628819s request.SessionId=7513198128915292412 request.cu=20 request.relayNumber=2 requestBlock=-2 seenBlock=22269993
+Sep 20 17:15:57 NYM lavap[4039954]: Sep 20 17:15:57 DBG Before Update Normal PrepareSessionForUsage GUID=6182522852180247723 relayNum=1 relayRequestTotalCU=20 sps.CuSum=20 sps.LatestRelayCu=10 sps.sessionId=7513198128915292412
+Sep 20 17:15:58 NYM lavap[4039954]: Sep 20 17:15:58 DBG Provider Finished Relay Successfully GUID=6182522852180247723 method=tx_search replyBlock=22269995 request.SessionId=7513198128915292412 request.relayNumber=2 requestedBlock=22269995
+Sep 20 17:15:58 NYM lavap[4039954]: Sep 20 17:15:58 DBG Provider returned a relay response GUID=6182522852180247723 relay_timeout=29.308911977s request.SessionId=7513198128915292412 request.cu=20 request.relayNumber=2 timeTaken=337.379286ms
+Sep 20 17:16:00 NYM lavavisor[4039722]: Sep 20 17:16:00 DBG [Lavavisor] lavap link path found, validating linked binary is the right one lavap_path=/usr/local/bin/lavap
+Sep 20 17:16:00 NYM lavavisor[4039722]: Sep 20 17:16:00 INF [Lavavisor] Validated protocol version current_binary=3.1.0 lava_block_number=1372716 version_min=2.2.2 version_target=3.1.0
+Sep 20 17:16:01 NYM CRON[1260997]: (root) CMD (/bin/bash /root/.healthchecks/auth_monitor/auth_monitor.sh >> /root/.healthchecks/auth_monitor/auth_monitor.log)
+Sep 20 17:16:01 NYM CRON[1260998]: (root) CMD (/bin/bash /root/.lava/lava_mon.sh)
+Sep 20 17:16:01 NYM CRON[1260999]: (root) CMD (/bin/bash /root/.lava/cosmoshub_mon.sh)
+
